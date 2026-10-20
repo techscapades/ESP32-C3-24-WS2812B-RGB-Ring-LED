@@ -1,2 +1,4 @@
 # ESP32-C3 24 WS2812B RGB Ring LED WiFi AP control
 This code programs an ESP32 microcontroller to control a strip of 24 addressable LEDs using a web-based interface. The ESP32 creates its own Wi-Fi Access Point using its unique chip ID, allowing users to connect with a phone or computer and open a webpage to adjust the LED brightness, RGB colour, number of LEDs illuminated in each group, and strobe interval in milliseconds. The LEDs flash in alternating groups to create a strobe effect, which can be switched on or off, while setting the interval to zero keeps all LEDs continuously lit. The code also saves the selected settings in the ESP32’s non-volatile memory so they are retained after a restart, and uses a non-blocking timing method to control the flashing without interrupting the web server.
+
+![Project Screenshot](esp32c324ringled.png)
